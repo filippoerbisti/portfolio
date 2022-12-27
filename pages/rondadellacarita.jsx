@@ -17,8 +17,8 @@ const rondadellacarita = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Twitch UI</h2>
-          <h3>Next JS / Tailwind / Next Auth</h3>
+          <h2 className='py-2'>Ronda Card App</h2>
+          <h3>Angular / Tailwind / Laravel</h3>
         </div>
       </div>
 
@@ -56,22 +56,22 @@ const rondadellacarita = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next.JS
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Bootstrap
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next Auth
+                <RiRadioButtonFill className='pr-1' /> Laravel
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Github Auth
+                <RiRadioButtonFill className='pr-1' /> MySql
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google Auth
+                <RiRadioButtonFill className='pr-1' /> Heroku
               </p>
             </div>
           </div>

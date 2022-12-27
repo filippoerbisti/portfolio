@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import portfolioImg from '../public/assets/projects/portfolio.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -13,12 +13,12 @@ const portfolio = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={portfolioImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Portfolio</h2>
+          <h3>Next JS / Tailwind</h3>
         </div>
       </div>
 
@@ -38,14 +38,14 @@ const portfolio = () => {
             package. This application was built using the Coin Gecko API.
           </p>
           <a
-            href='https://github.com/filippoerbisti/crypto-react-firebase'
+            href='https://github.com/filippoerbisti/portfolio'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://cryptobase-yt.web.app/'
+            href='https://portfolio-nine-theta-38.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -58,19 +58,13 @@ const portfolio = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Tailwind
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coin Gecko API
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Routes
