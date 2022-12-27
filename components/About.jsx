@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import AboutImg from '../public/assets/about.jpg';
-import MeImg from '../public/assets/profileMePic.jpg';
+// import AboutImg from '../public/assets/about.jpg';
+// import MeImg from '../public/assets/profileMePic.jpg';
+
+const MeImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166277/portfolio/profileMePic_zxdoz2.jpg';
 
 const About = () => {
   return (
@@ -38,7 +40,7 @@ const About = () => {
           </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 md:hover:scale-105 ease-in duration-300'>
-          <Image src={MeImg} className='rounded-xl' alt='/' />
+          <img src={MeImg} className='rounded-xl' alt='/' />
         </div>
       </div>
     </div>

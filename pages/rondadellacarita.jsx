@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+// import twitchImg from '../public/assets/projects/twitch.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
+const twitchImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166281/portfolio/projects/twitch_a6o2fj.jpg';
 
 const rondadellacarita = () => {
   return (

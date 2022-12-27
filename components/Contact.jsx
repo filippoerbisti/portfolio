@@ -5,11 +5,13 @@ import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg';
+// import ContactImg from '../public/assets/contact.jpg';
+
+const ContactImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166282/portfolio/contact_mikamu.jpg';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contact' className='w-full lg:h-screen mt-5'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
@@ -20,7 +22,7 @@ const Contact = () => {
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
-                <Image
+                <img
                   className='rounded-xl md:hover:scale-105 ease-in duration-300'
                   src={ContactImg}
                   alt='/'

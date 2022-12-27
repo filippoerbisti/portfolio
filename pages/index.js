@@ -14,11 +14,13 @@ export default function Home() {
         <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
         <link rel="icon" href="/fav.png" />
       </Head>
-    <Main />
-    <About />
-    <Skills />
-    <Projects />
-    <Contact />
+      {/* <div className='flex flex-column'> */}
+        <Main />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      {/* </div> */}
     </div>
   )
 }

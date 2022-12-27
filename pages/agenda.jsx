@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
+// import propertyImg from '../public/assets/projects/property.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
+const propertyImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/property_dfbjog.jpg';
 
 const agenda = () => {
   return (

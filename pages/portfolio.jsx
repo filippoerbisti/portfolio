@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import portfolioImg from '../public/assets/projects/portfolio.png';
+// import portfolioImg from '../public/assets/projects/portfolio.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+
+const portfolioImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166277/portfolio/projects/portfolio_g7vv3o.png';
 
 const portfolio = () => {
   return (
