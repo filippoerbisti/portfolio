@@ -1,9 +1,14 @@
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import portfolioImg from '../public/assets/projects/portfolio.png';
-import netflixImg from '../public/assets/projects/netflix.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+// import propertyImg from '../public/assets/projects/property.jpg';
+// import portfolioImg from '../public/assets/projects/portfolio.png';
+// import netflixImg from '../public/assets/projects/netflix.jpg';
+// import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
+
+const propertyImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/property_dfbjog.jpg';
+const portfolioImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166277/portfolio/projects/portfolio_g7vv3o.png';
+const netflixImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/netflix_o097ki.jpg';
+const twitchImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166281/portfolio/projects/twitch_a6o2fj.jpg';
 
 const Projects = () => {
   return (
