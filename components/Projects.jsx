@@ -1,10 +1,8 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import cryptoImg from '../public/assets/projects/crypto.jpg';
+import netflixImg from '../public/assets/projects/netflix.jpg';
+import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,31 +15,28 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='Property Finder'
+            title='My Personal Agenda'
             backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            projectUrl='/agenda'
+            tech='Next JS & Laravel'
           />
           <ProjectItem
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
-
-          />
-          <ProjectItem
-            title='Netflix App'
+            title='Roccolo del Lago'
             backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
-
+            projectUrl='/roccolo'
+            tech='Next JS & Firebase'
           />
           <ProjectItem
-            title='Twitch UI'
+            title='My Portfolio'
+            backgroundImg={cryptoImg}
+            projectUrl='/portfolio'
+            tech='Next JS & Tailwind'
+          />
+          <ProjectItem
+            title='Ronda della Carità'
             backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
+            projectUrl='/rondadellacarita'
+            tech='Angular & Laravel'
           />
         </div>
       </div>
