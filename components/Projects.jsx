@@ -1,6 +1,6 @@
 import React from 'react';
 import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import portfolioImg from '../public/assets/projects/portfolio.png';
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
@@ -28,7 +28,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='My Portfolio'
-            backgroundImg={cryptoImg}
+            backgroundImg={portfolioImg}
             projectUrl='/portfolio'
             tech='Next JS & Tailwind'
           />
