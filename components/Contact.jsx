@@ -21,14 +21,14 @@ const Contact = () => {
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
-                  className='rounded-xl hover:scale-105 ease-in duration-300'
+                  className='rounded-xl md:hover:scale-105 ease-in duration-300'
                   src={ContactImg}
                   alt='/'
                 />
               </div>
               <div>
                 <h2 className='py-2'>Filippo Erbisti</h2>
-                <p>Front-End Developer</p>
+                <p>Full-Stack Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
@@ -42,7 +42,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer md:hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
                   </a>
@@ -51,17 +51,17 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer md:hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
                   </a>
 
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer md:hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
                   <Link href='/resume'>
                     <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer md:hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
                     </a>
@@ -133,7 +133,7 @@ const Contact = () => {
         <div className='flex justify-center py-12'>
           <Link href='/'>
             <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer md:hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
                   className='text-[#5651e5]'
                   size={30}

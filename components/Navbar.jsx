@@ -68,22 +68,22 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent hover:border-slate-300'>
+            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
@@ -181,7 +181,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer md:hover:scale-105 ease-in duration-300'>
                     <FaLinkedinIn />
                   </div>
                 </a>
@@ -190,14 +190,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer md:hover:scale-105 ease-in duration-300'>
                     <FaGithub />
                   </div>
                 </a>
                 <Link href='/#contact'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer md:hover:scale-105 ease-in duration-300'
                   >
                     <AiOutlineMail />
                   </div>
@@ -205,7 +205,7 @@ const Navbar = () => {
                 <Link href='/resume'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer md:hover:scale-105 ease-in duration-300'
                   >
                     <BsFillPersonLinesFill />
                   </div>
