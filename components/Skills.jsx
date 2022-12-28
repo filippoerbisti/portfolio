@@ -16,7 +16,7 @@ const Postgre = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166282/p
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 mt-28'>
+    <div id='skills' className='w-full lg:h-screen p-2 md:mt-0 mt-28'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
