@@ -11,6 +11,13 @@ const ContactImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v167216628
 
 const Contact = () => {
 
+  const clearField = () => {
+    // let inputs = document.querySelectorAll('input');
+    // inputs.forEach(input => (
+    //   input.value = ''
+    // ))
+  }
+
   return (
     <div id='contact' className='w-full lg:h-screen md:mt-10 mt-0'>
       <div className='max-w-[1240px] m-auto px-2 pt-16 w-full '>
@@ -131,7 +138,7 @@ const Contact = () => {
                     required
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button onClick={clearField} className='w-full p-4 text-gray-100 mt-4'>
                   Send Message
                 </button>
               </form>
