@@ -50,7 +50,7 @@ const Navbar = () => {
           </a>
         </Link>
         <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex md:mr-10'>
             <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/'>Home</Link>
             </li>
