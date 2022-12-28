@@ -10,9 +10,10 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 const ContactImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166282/portfolio/contact_mikamu.jpg';
 
 const Contact = () => {
+
   return (
-    <div id='contact' className='w-full lg:h-screen mt-5'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
+    <div id='contact' className='w-full lg:h-screen md:mt-10 mt-0'>
+      <div className='max-w-[1240px] m-auto px-2 pt-16 w-full '>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contact
         </p>
@@ -32,7 +33,7 @@ const Contact = () => {
                 <h2 className='py-2'>Filippo Erbisti</h2>
                 <p>Full-Stack Developer</p>
                 <p className='py-4'>
-                  I am available for freelance or full-time positions. Contact
+                  I am available for freelance or technology consultancy. Contact
                   me and let&apos;s talk.
                 </p>
               </div>
@@ -77,7 +78,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/54cd00e1-2077-4b8c-9ca7-bdf793f88794'
                 method='POST'
                 encType='multipart/form-data'
               >
@@ -88,6 +89,7 @@ const Contact = () => {
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
                       name='name'
+                      required
                     />
                   </div>
                   <div className='flex flex-col'>
@@ -96,8 +98,9 @@ const Contact = () => {
                     </label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
-                      type='text'
+                      type='tel'
                       name='phone'
+                      required
                     />
                   </div>
                 </div>
@@ -107,6 +110,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
                     name='email'
+                    required
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -115,6 +119,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
                     name='subject'
+                    required
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -123,6 +128,7 @@ const Contact = () => {
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
                     name='message'
+                    required
                   ></textarea>
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4'>
