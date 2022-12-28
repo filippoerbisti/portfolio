@@ -29,13 +29,15 @@ const roccolo = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on GitHub pages.
+            {/* I built this application in React JS and is hosted on GitHub pages.
             This app features user authentication with firebase as well as the
             firestore cloud storage database. This application is pulling movie
             data from an the IMDB movie API and displaying different categories.
             It features horizontal sliding and a featured selection. The
             useContext hook is also being implemented for app-wide state
-            management.
+            management. */}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate recusandae ratione nihil laborum, magnam similique voluptatem, accusantium unde assumenda harum animi molestiae sapiente quibusdam, enim est possimus tempora! Id, doloremque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad, cupiditate ipsa accusamus hic nobis repellat nisi voluptate quas natus asperiores nulla provident, nostrum omnis cumque est ex libero officiis!
           </p>
           <a
             href='https://github.com/filippoerbisti/Roccolo-s-project'

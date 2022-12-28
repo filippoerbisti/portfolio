@@ -29,13 +29,15 @@ const rondadellacarita = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This appplication was built using NEXT.JS and is styled with
+            {/* This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
             This is a mobile responsive recreation of Twitch.tv and features
             Next/Auth.js for authentication. Users may choose to be
             authenticated with either a Github account or a Google account. A
             few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+            the Image component, built in routing, and Next/Auth Context. */}
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate recusandae ratione nihil laborum, magnam similique voluptatem, accusantium unde assumenda harum animi molestiae sapiente quibusdam, enim est possimus tempora! Id, doloremque.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad, cupiditate ipsa accusamus hic nobis repellat nisi voluptate quas natus asperiores nulla provident, nostrum omnis cumque est ex libero officiis!
           </p>
           <a
             href='https://twitch-nextjs-tailwind.vercel.app/'
