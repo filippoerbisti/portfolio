@@ -25,13 +25,10 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job. */}
 
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Perspiciatis vero iusto quo impedit cumque illum repudiandae 
-            ad nisi doloribus, quidem, officiis fuga repellendus deserunt, 
-            laborum iste totam aperiam quam voluptatibus.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ex odit numquam alias totam vitae ab exercitationem at! 
-            Officiis voluptates dolore praesentium ipsa et minus sit sunt perspiciatis! Excepturi, at enim.
+            I possess experience in software development with different programming languages 
+            such as C#, SqlServer, Angular, NextJS, and PHP (Laravel).
+            In the current workstation I develop on Microsoft C# environment in a FullStack context.
+            Willing to know and learn new languages for the need of the moment.
           </p>
           <p className='py-2 text-gray-600'>
             {/* I started web developement in 2013 managing multiple e-commerce
@@ -40,8 +37,8 @@ const About = () => {
             mock wireframes all the way to deployed applications. In my spare
             time I run Code Commerce, a Youtube channel where I teach web
             developement and various front-end technologies. */}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, perferendis optio, neque soluta ipsa quisquam veritatis eius atque architecto nisi, nemo dolores. Excepturi beatae at ex, enim et eaque earum.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A accusamus odio rem, cupiditate eius et magni soluta quidem eveniet aliquid ut repellat asperiores natus quos ex ratione eum delectus? Voluptas?
+            {/* Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, perferendis optio, neque soluta ipsa quisquam veritatis eius atque architecto nisi, nemo dolores. Excepturi beatae at ex, enim et eaque earum. */}
+            {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit. A accusamus odio rem, cupiditate eius et magni soluta quidem eveniet aliquid ut repellat asperiores natus quos ex ratione eum delectus? Voluptas? */}
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>

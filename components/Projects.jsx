@@ -44,6 +44,8 @@ const Projects = () => {
             tech='Angular & Laravel'
           />
         </div>
+        <h3 className='mt-10'>Check also my mini project on {' '}
+        <a href="https://codepen.io/filippoerbisti" className='underline text-blue-600'>Codepen</a></h3>
       </div>
     </div>
   );

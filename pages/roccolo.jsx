@@ -28,17 +28,30 @@ const roccolo = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
+          <h3 className='pt-4 pb-2'>Company</h3>
           <p>
-            {/* I built this application in React JS and is hosted on GitHub pages.
-            This app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management. */}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate recusandae ratione nihil laborum, magnam similique voluptatem, accusantium unde assumenda harum animi molestiae sapiente quibusdam, enim est possimus tempora! Id, doloremque.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad, cupiditate ipsa accusamus hic nobis repellat nisi voluptate quas natus asperiores nulla provident, nostrum omnis cumque est ex libero officiis!
+          Tenute Francesco Righetti in collaboration with Giuseppe Campagnola 
+          (two families who have been working together for generations), give 
+          birth in the last 10 years to Azienda Agricola Roccolo del Lago, an
+           estate located on the beautiful hills of Lake Garda. The winery 
+           produces organic wines typical of the area: Chardonnay, Custoza, 
+           Bardolino, Corvina, Prosecco, Pinot Grigio, Valpolicella, and Amarone.
+           Winemaking is not the only focus as they offer themselves as a location
+           for events, weddings and organized tastings. They have a shop both physical
+           on the estate and online where it is possible to order both wines and oil produced on the estate.
           </p>
+          <h3 className='pt-4 pb-2'>The design challenge</h3>
+          <p>
+          The design challenge proposes the creation of living tours of the organic vineyards and winery. 
+          The goal is to make all aspects of wine production known and appreciated to the fullest, going 
+          to enhance the characteristics of the vineyards and the quality of the wine produced.
+          </p>
+          <h3 className='pt-4 pb-2'>Our proposals</h3>
+          <ul>
+            <li>Restyle of thier existing site (<a href='https://roccolodellago.vercel.app/it/' className='underline text-blue-600'>Demo</a>)</li>
+            <li>Landing page to promote new proposal, virtual tour (<a href='https://landingroccolo.vercel.app/it/' className='underline text-blue-600'>Demo</a>)</li>
+            <li>Mobile application called Mapapp to explore their estates by phone (<a href='https://mapapproccolo.vercel.app/' className='underline text-blue-600'>Demo</a>)</li>
+          </ul>
           <a
             href='https://github.com/filippoerbisti/Roccolo-s-project'
             target='_blank'
@@ -75,6 +88,9 @@ const roccolo = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Email Js
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Swipe Js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> PayPal Checkout
