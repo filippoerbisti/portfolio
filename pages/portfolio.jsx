@@ -34,7 +34,9 @@ const portfolio = () => {
           </p>
           <br />
           <p>
-            This is my
+            This is my portfolio, a site where I introduce myself and show my projects.
+            <br />
+            Hope you enjoy it!
           </p>
           <a
             href='https://github.com/filippoerbisti/portfolio'
