@@ -56,8 +56,11 @@ const resume = () => {
           with solid interpersonal abilities and complex problem-solving skills.
           Effective and proven track record of critical thinking, idea
           generation, and optimizing efficiencies. */}
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate recusandae ratione nihil laborum, magnam similique voluptatem, accusantium unde assumenda harum animi molestiae sapiente quibusdam, enim est possimus tempora! Id, doloremque.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad, cupiditate ipsa accusamus hic nobis repellat nisi voluptate quas natus asperiores nulla provident, nostrum omnis cumque est ex libero officiis!
+
+            I possess experience in software development with different programming languages 
+            such as C#, SqlServer, Angular, NextJS, and PHP (Laravel).
+            In the current workstation I develop on Microsoft C# environment in a FullStack context.
+            Willing to know and learn new languages for the need of the moment.
         </p>
 
         {/* Skills */}
@@ -89,6 +92,17 @@ const resume = () => {
           </p>
         </div>
 
+          <div className='flex flex-col items-end'>
+            <div>
+              <label htmlFor="cv">Select language of CV</label>
+              <select name="cv" id="cv" className='ml-2 p-2 rounded'>
+                <option value="enCV">English</option>
+                <option value="itCV">Italiano</option>
+              </select>
+            </div>
+            <button className='p-2 text-xs w-28 mt-2'>Download</button>
+          </div>
+
         <h5 className='text-center underline text-[18px] py-4'>
           Professional Experience
         </h5>
@@ -102,22 +116,11 @@ const resume = () => {
           </p>
           <p className='py-1 italic'>Full-Stack Developer (2022 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
-            </li>
-            <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
+            <li>Razor Pages C#</li>
+            <li>Bootstrap</li>
+            <li>Asp .Net 6</li>
+            <li>MySQL</li>
+            <li>Microsoft Azure</li>
           </ul>
         </div>
 
@@ -131,22 +134,10 @@ const resume = () => {
           </p>
           <p className='py-1 italic'>Full-Stack Developer (2021 - 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
-            </li>
-            <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
+            <li>Angular</li>
+            <li>Bootstrap</li>
+            <li>C#</li>
+            <li>MySQL</li>
           </ul>
         </div>
 
@@ -161,11 +152,31 @@ const resume = () => {
             </span>
             <span className='px-2'>|</span>Verona, IT
           </p>
-          <p className='py-1 italic'>DIGITAL TRASFORMATION SPECIALIST (2020 - 2022)</p>
-          <p>It is a two-year post-diploma specialization course in the field of information technology and new technologies.
+          <p className='py-1 italic'>Student (2020 - 2022)</p>
+          <p>Course: DIGITAL TRASFORMATION SPECIALIST
+            <br />
+            It is a two-year post-diploma specialization course in the field of information technology and new technologies.
             The topics covered range from Web Design, Web Programming (Back-End and Front-End) 
             and Data Analysis to IOT and Cyber Security.
           </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>Js</li>
+            <li>Vue</li>
+            <li>Angular</li>
+            <li>Laravel</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold italic'>
+            Scientific High School
+            </span>
+            <span className='px-2'>|</span>Verona, IT
+          </p>
+          <p className='py-1 italic'>Student (2014 - 2019)</p>
         </div>
       </div>
     </>

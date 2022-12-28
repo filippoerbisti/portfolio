@@ -159,7 +159,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-        <h3 className='pb-4 pt-8'>CERTIFICATION</h3>
+        <h3 className='pb-4 pt-8'>CERTIFICATIONS</h3>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
             <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>

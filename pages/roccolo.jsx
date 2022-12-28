@@ -28,6 +28,10 @@ const roccolo = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
+          <p>
+            This application was built using Next Js and Firebase, and is styled with
+            Bootstrap. The application is hosted statically using Vercel.
+          </p>
           <h3 className='pt-4 pb-2'>Company</h3>
           <p>
           Tenute Francesco Righetti in collaboration with Giuseppe Campagnola 
