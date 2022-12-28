@@ -38,14 +38,12 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Web Development <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
           <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
-            <p>Complex Problem Solving</p>
+            <p>Web Development</p>
+            <p className='py-2'>Complex Problem Solving</p>
           </div>
         </div>
         <p>
@@ -67,17 +65,21 @@ const resume = () => {
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
             <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Full-Stack Developer
+            <span className='px-2'>|</span> Full-Stack Developer
             <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
+            <span className='px-2'>|</span> CSS
+            <span className='px-2'>|</span> Javascript
+            <span className='px-2'>|</span> Angular
+            <span className='px-2'>|</span> Next JS
+            <span className='px-2'>|</span> C#
+            <span className='px-2'>|</span> Laravel
+            <span className='px-2'>|</span> SQL
+            <span className='px-2'>|</span> MySQL
+            <span className='px-2'>|</span> PostgreSQL
             <span className='px-2'>|</span> Firebase
+            <span className='px-2'>|</span> Sanity.io
+            <span className='px-2'>|</span> Tailwind
+            <span className='px-2'>|</span> Bootstrap
             <span className='px-2'>|</span> RESTAPI
           </p>
           <p className='py-2'>
@@ -123,11 +125,11 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            ENERJ Srl
+            HiT Internet Technologies Srl
             </span>
             <span className='px-2'>|</span>Verona, IT
           </p>
-          <p className='py-1 italic'>Full-Stack Developer (2022 - Current)</p>
+          <p className='py-1 italic'>Full-Stack Developer (2021 - 2021)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Ensured comprehensive mobile responsive UI layouts with
@@ -148,38 +150,22 @@ const resume = () => {
           </ul>
         </div>
 
-        {/*  */}
+        {/* Education */}
         <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
+          Education
         </h5>
-      
-        {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            ENERJ Srl
+            ITS Academy Veneto
             </span>
             <span className='px-2'>|</span>Verona, IT
           </p>
-          <p className='py-1 italic'>Full-Stack Developer (2022 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
-            </li>
-            <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
-            </li>
-            <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
-            </li>
-          </ul>
+          <p className='py-1 italic'>DIGITAL TRASFORMATION SPECIALIST (2020 - 2022)</p>
+          <p>It is a two-year post-diploma specialization course in the field of information technology and new technologies.
+            The topics covered range from Web Design, Web Programming (Back-End and Front-End) 
+            and Data Analysis to IOT and Cyber Security.
+          </p>
         </div>
       </div>
     </>
