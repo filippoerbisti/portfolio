@@ -150,6 +150,9 @@ const Contact = () => {
             </a>
           </Link>
         </div>
+        <div className='h-30 w-full pb-6 text-center'>
+          2023 © Filippo Erbisti - Portfolio
+        </div>
       </div>
     </div>
   );

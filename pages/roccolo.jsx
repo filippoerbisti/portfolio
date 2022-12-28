@@ -4,7 +4,7 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const netflixImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/netflix_o097ki.jpg'; 
+const roccoloImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218028/portfolio/projects/landingroccolo_xs1t8z.png';
 
 const roccolo = () => {
   return (
@@ -15,7 +15,7 @@ const roccolo = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={netflixImg}
+          src={roccoloImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>

@@ -4,7 +4,7 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const propertyImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/property_dfbjog.jpg';
+const agendaImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218261/portfolio/projects/agenda_ulrjq9.png';
 
 const agenda = () => {
   return (
@@ -15,12 +15,12 @@ const agenda = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={propertyImg}
+          src={agendaImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finders</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>QOSC</h2>
+          <h3>Next JS / Bootstrap / Laravel</h3>
         </div>
       </div>
 
@@ -39,14 +39,14 @@ const agenda = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/filippoerbisti/property-finder'
+            href='https://github.com/filippoerbisti/qosc'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://property-finder-development.web.app/'
+            href='https://qosc.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -58,22 +58,16 @@ const agenda = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Next Js
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Bootstrap
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> Laravel
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Auth Google
               </p>
             </div>
           </div>

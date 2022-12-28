@@ -4,7 +4,7 @@ import React from 'react';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const twitchImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166281/portfolio/projects/twitch_a6o2fj.jpg';
+const rondaImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218175/portfolio/projects/rondadellacarita_uctwxz.png';
 
 const rondadellacarita = () => {
   return (
@@ -15,11 +15,11 @@ const rondadellacarita = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={twitchImg}
+          src={rondaImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Ronda Card App</h2>
+          <h2 className='py-2'>Ronda Card</h2>
           <h3>Angular / Tailwind / Laravel</h3>
         </div>
       </div>
@@ -29,25 +29,24 @@ const rondadellacarita = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            {/* This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context. */}
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate recusandae ratione nihil laborum, magnam similique voluptatem, accusantium unde assumenda harum animi molestiae sapiente quibusdam, enim est possimus tempora! Id, doloremque.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ad, cupiditate ipsa accusamus hic nobis repellat nisi voluptate quas natus asperiores nulla provident, nostrum omnis cumque est ex libero officiis!
+            This application was built using Angular and Laravel, and is styled with
+            Tailwind CSS. The application is hosted statically using Netlify, while the server is hosted by Heroku.
+          </p>
+          <h3 className='pt-4 pb-2'>Context</h3>
+          <p>
+            Ronda della Carità is a charity that 365 days a year in the evenings goes out 
+            with shifts of 10 volunteers and 4 vehicles to distribute meals and collect orders and distribute 
+            of clothing and blankets for homeless people.
           </p>
           <a
-            href='https://twitch-nextjs-tailwind.vercel.app/'
+            href='https://rondadellacarita.netlify.app/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
           </a>
           <a
-            href='https://github.com/filippoerbisti/twitch-nextjs-tailwind'
+            href='https://github.com/filippoerbisti/ronda-della-carita'
             target='_blank'
             rel='noreferrer'
           >
@@ -72,7 +71,7 @@ const rondadellacarita = () => {
                 <RiRadioButtonFill className='pr-1' /> Laravel
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> MySql
+                <RiRadioButtonFill className='pr-1' /> MySQL
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Heroku
