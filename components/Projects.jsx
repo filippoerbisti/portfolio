@@ -12,7 +12,7 @@ const rondaImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218175/
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full md:mt-0 mt-12'>
+    <div id='projects' className='w-full md:mt-52 mt-12'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -20,7 +20,7 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
-            title='My Personal Agenda'
+            title='QOSC'
             backgroundImg={agendaImg}
             projectUrl='/agenda'
             tech='Next JS & Laravel'
@@ -38,7 +38,7 @@ const Projects = () => {
             tech='Next JS & Tailwind'
           />
           <ProjectItem
-            title='Ronda della Carità'
+            title='Ronda Card'
             backgroundImg={rondaImg}
             projectUrl='/rondadellacarita'
             tech='Angular & Laravel'

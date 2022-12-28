@@ -14,14 +14,16 @@ const SQL = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166282/portf
 const MySQL = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166281/portfolio/skills/mysql_umaifl.png';
 const Postgre = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166282/portfolio/skills/postgre_pnzn7a.jpg';
 
+const AZ900 = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672261604/portfolio/skills/az900_nwgk4z.png';
+
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 md:mt-0 mt-28'>
+    <div id='skills' className='w-full lg:h-screen p-2 md:mt-40 mt-28'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
         </p>
-        <h2 className='py-4'>What I Can Do</h2>
+        <h2 className='py-4'>What I can do</h2>
         <div>
           <h3 className='py-4'>Front-End</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
@@ -157,6 +159,19 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        <h3 className='pb-4 pt-8'>CERTIFICATION</h3>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
+            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+              <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                  <img src={AZ900} className='w-11 h-11 md:w-16 md:h-16' alt='/' />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                  <h3>AZ-900</h3>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
   );
