@@ -5,14 +5,14 @@ import React from 'react';
 // import twitchImg from '../public/assets/projects/twitch.jpg';
 import ProjectItem from './ProjectItem';
 
-const propertyImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/property_dfbjog.jpg';
+const agendaImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218261/portfolio/projects/agenda_ulrjq9.png';
 const portfolioImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166277/portfolio/projects/portfolio_g7vv3o.png';
-const netflixImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166280/portfolio/projects/netflix_o097ki.jpg';
-const twitchImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166281/portfolio/projects/twitch_a6o2fj.jpg';
+const roccoloImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218028/portfolio/projects/landingroccolo_xs1t8z.png';
+const rondaImg = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672218175/portfolio/projects/rondadellacarita_uctwxz.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full mt-40'>
+    <div id='projects' className='w-full md:mt-0 mt-12'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Projects
@@ -21,13 +21,13 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem
             title='My Personal Agenda'
-            backgroundImg={propertyImg}
+            backgroundImg={agendaImg}
             projectUrl='/agenda'
             tech='Next JS & Laravel'
           />
           <ProjectItem
             title='Roccolo del Lago'
-            backgroundImg={netflixImg}
+            backgroundImg={roccoloImg}
             projectUrl='/roccolo'
             tech='Next JS & Firebase'
           />
@@ -39,7 +39,7 @@ const Projects = () => {
           />
           <ProjectItem
             title='Ronda della Carità'
-            backgroundImg={twitchImg}
+            backgroundImg={rondaImg}
             projectUrl='/rondadellacarita'
             tech='Angular & Laravel'
           />
