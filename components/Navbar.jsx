@@ -88,22 +88,22 @@ const Navbar = () => {
         </Link>
         <div className='flex'>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex md:mr-10 md:items-center'>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/'>Home</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#about'>About</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#skills'>Skills</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/resume'>Resume</Link>
             </li>
-            <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
+            <li className='ml-10 md:ml-2 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
