@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 
-const NavLogo = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672166283/portfolio/navLogo_yezcnd.png';
+const NavLogo = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672330082/portfolio/log_n48s8x.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -160,8 +160,8 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='35'
+                    width={100}
+                    height={75}
                     alt='/'
                   />
                 </a>
@@ -234,9 +234,6 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className='pt-4'>
-              <p className='uppercase tracking-widest text-[#5651e5]'>
-                Let&#39;s Connect
-              </p>
               <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
                   href='https://www.linkedin.com/in/filippo-erbisti-1783a9202/'
