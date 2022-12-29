@@ -32,6 +32,16 @@ const Navbar = () => {
     if (!darkTheme) {
       document.getElementsByTagName('body')[0].style.backgroundColor = navBg;
       document.getElementsByTagName('body')[0].style.opacity = 1;
+
+      let boxesShadow = document.querySelectorAll('.shadow-lg');
+      boxesShadow.forEach(box => {
+        box.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgb(0, 0, 0, 0.1)';
+      });
+
+      let boxes = document.querySelectorAll('.shadow-xl');
+      boxes.forEach(box => {
+        box.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgb(0, 0, 0, 0.1)';
+      });
     }
 
     if (darkTheme) {
@@ -101,7 +111,7 @@ const Navbar = () => {
             <label htmlFor="theme" className="theme">
               <span>Light</span>
               <span className="theme__toggle-wrap">
-                <input id="theme" className="theme__toggle" type="checkbox" role="switch" name="theme" value={darkTheme} onChange={() => setDarkTheme(!darkTheme)} />
+                <input id="theme" className="theme__toggle" type="checkbox" name="theme" value={darkTheme} onChange={() => setDarkTheme(!darkTheme)} />
                 <span className="theme__fill"></span>
                 <span className="theme__icon">
                   <span className="theme__icon-part"></span>
