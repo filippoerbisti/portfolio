@@ -13,6 +13,8 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
 
+  const [darkTheme, setDarkTheme] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -26,7 +28,32 @@ const Navbar = () => {
       }
     };
     window.addEventListener('scroll', handleShadow);
-  }, []);
+
+    if (!darkTheme) {
+      document.getElementsByTagName('body')[0].style.backgroundColor = navBg;
+      document.getElementsByTagName('body')[0].style.opacity = 1;
+    }
+
+    if (darkTheme) {
+      document.getElementsByTagName('body')[0].style.backgroundColor = 'black';
+      document.getElementsByTagName('body')[0].style.opacity = .8;
+      let skills = document.querySelectorAll('#skill');
+      skills.forEach(skill => {
+        skill.style.backgroundColor = 'rgba(256,256,256)';
+        skill.style.boxShadow = '0 20px 25px -5px rgba(256, 256, 256, 0.1), 0 8px 10px -6px rgb(256, 256, 256, 0.1)';
+      });
+
+      let boxesShadow = document.querySelectorAll('.shadow-lg');
+      boxesShadow.forEach(box => {
+        box.style.boxShadow = '0 20px 25px -5px rgba(256, 256, 256, 0.1), 0 8px 10px -6px rgb(256, 256, 256, 0.1)';
+      });
+
+      let boxes = document.querySelectorAll('.shadow-xl');
+      boxes.forEach(box => {
+        box.style.boxShadow = '0 20px 25px -5px rgba(256, 256, 256, 0.1), 0 8px 10px -6px rgb(256, 256, 256, 0.1)';
+      });
+    }
+  }, [shadow, setShadow, darkTheme, setDarkTheme]);
 
   return (
     <div
@@ -49,8 +76,8 @@ const Navbar = () => {
             />
           </a>
         </Link>
-        <div>
-          <ul style={{ color: `${linkColor}` }} className='hidden md:flex md:mr-10'>
+        <div className='flex'>
+          <ul style={{ color: `${linkColor}` }} className='hidden md:flex md:mr-10 md:items-center'>
             <li className='ml-10 text-sm uppercase border-b border-transparent md:hover:border-slate-300'>
               <Link href='/'>Home</Link>
             </li>
@@ -70,6 +97,27 @@ const Navbar = () => {
               <Link href='/#contact'>Contact</Link>
             </li>
           </ul>
+          <div className='hidden md:flex'>
+            <label htmlFor="theme" className="theme">
+              <span>Light</span>
+              <span className="theme__toggle-wrap">
+                <input id="theme" className="theme__toggle" type="checkbox" role="switch" name="theme" value={darkTheme} onChange={() => setDarkTheme(!darkTheme)} />
+                <span className="theme__fill"></span>
+                <span className="theme__icon">
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                  <span className="theme__icon-part"></span>
+                </span>
+              </span>
+              <span>Dark</span>
+            </label>
+          </div>
           {/* Hamburger Icon */}
           <div
             style={{ color: `${linkColor}` }}
@@ -120,6 +168,27 @@ const Navbar = () => {
                 Filippo Erbisti
               </p>
             </div>
+            <div className='md:hidden flex mt-2'>
+              <label htmlFor="theme" className="theme">
+                <span>Light</span>
+                <span className="theme__toggle-wrap">
+                  <input id="theme" className="theme__toggle" type="checkbox" role="switch" name="theme" value={darkTheme} onChange={() => setDarkTheme(!darkTheme)} />
+                  <span className="theme__fill"></span>
+                  <span className="theme__icon">
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                    <span className="theme__icon-part"></span>
+                  </span>
+                </span>
+                <span>Dark</span>
+              </label>
+            </div>
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
@@ -154,7 +223,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-            <div className='pt-40'>
+            <div className='pt-4'>
               <p className='uppercase tracking-widest text-[#5651e5]'>
                 Let&#39;s Connect
               </p>

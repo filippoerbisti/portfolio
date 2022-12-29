@@ -18,7 +18,7 @@ const AZ900 = 'https://res.cloudinary.com/dl38nyo08/image/upload/v1672261604/por
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 md:mt-40 mt-28'>
+    <div id='skills' className='w-full lg:h-screen p-2 md:mt-40 xl:mt-0 mt-28'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Skills
@@ -27,7 +27,7 @@ const Skills = () => {
         <div>
           <h3 className='py-4'>Front-End</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#FFD700'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -38,7 +38,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#C0C0C0'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -49,7 +49,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div  id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#CD7F32'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -63,7 +63,7 @@ const Skills = () => {
           </div>
           <h3 className='py-4'>Style</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#FFD700'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -74,7 +74,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#C0C0C0'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -88,7 +88,7 @@ const Skills = () => {
           </div>
           <h3 className='py-4'>Back-End</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div  id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#FFD700'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -99,7 +99,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div  id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#C0C0C0'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -110,7 +110,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#CD7F32'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -124,7 +124,7 @@ const Skills = () => {
           </div>
           <h3 className='py-4'>Database</h3>
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#FFD700'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -135,7 +135,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#C0C0C0'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -146,7 +146,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
               <div className='p-1 rounded-full absolute h-6 w-6' style={{backgroundColor: '#CD7F32'}}><BiCrown className='h-full w-full'/></div>
               <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
@@ -161,17 +161,17 @@ const Skills = () => {
         </div>
         <h3 className='pb-4 pt-8'>CERTIFICATIONS</h3>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8'>
-            <div className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-              <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
-                <div className='m-auto'>
-                  <img src={AZ900} className='w-11 h-11 md:w-16 md:h-16' alt='/' />
-                </div>
-                <div className='flex flex-col items-center justify-center'>
-                  <h3>AZ-900</h3>
-                </div>
+          <div id='skill' className='shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='p-4 grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <img src={AZ900} className='w-11 h-11 md:w-16 md:h-16' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>AZ-900</h3>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
   );
